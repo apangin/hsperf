@@ -3,6 +3,8 @@
 Prints HotSpot perf counters, even when the target JVM is started with `-XX:+PerfDisableSharedMem` flag.
 Unlike other similar utilities, it does **not** rely on access to `/tmp/hsperfdata_user` files.
 
+Does not require JDK to run. Works with all versions of HotSpot JVM.
+
 ### Usage
 
 ```
